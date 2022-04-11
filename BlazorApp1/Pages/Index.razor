@@ -1,0 +1,32 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager;
+<PageTitle>Logim</PageTitle>
+
+
+<div class="content-login">
+
+    <div class="content-login-icon">
+        <img src="/images/person-circle.svg" />
+    </div>
+
+    <div class="content-login-input">
+        <Text Type="text" Icono="/images/envelope.svg" PlaceHolder="Correo" />
+        <Text Type="password" Icono="/images/key.svg" PlaceHolder="Contraseña" />
+    </div>
+
+    <button @onclick="Ingresar" class="btn-Ingresar">Ingresar</button>
+
+    <div class="content-login-information">
+        <a class="lnk-contrasena">Olvido su contraseña</a>
+        <a class="lnk-registro">Registrarse</a>
+    </div>
+
+</div>
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    public void Ingresar()
+    {
+        NavigationManager.NavigateTo("cita");
+    }
+}

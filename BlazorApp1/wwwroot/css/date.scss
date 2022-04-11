@@ -1,0 +1,22 @@
+﻿
+*{
+    box-sizing:border-box;
+}
+
+p{
+    margin:0;
+}
+
+.content-list-date {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding:.5rem;
+}
+
+
+@import "Components/List/_itemList";
+@import "Components/List/_list";
+@import "Components/TextBox/_text";
+
+
+@import "Pages/_index";

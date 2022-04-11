@@ -1,0 +1,19 @@
+﻿.input-text {
+    margin-bottom: 0.5rem;
+    position: relative;
+
+    input {
+        border-radius: 1rem;
+        padding-left: 2rem;
+        height: 2rem;
+    }
+
+    .content-icon {
+        position: absolute;
+        height:2rem;
+        width: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

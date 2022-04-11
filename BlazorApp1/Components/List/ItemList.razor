@@ -1,0 +1,45 @@
+﻿    <div class="item-list">
+             <div class="content-information">
+                <div class="content-img">
+                    <img src="@ImgInstructor" />
+                </div>
+                
+                <div class="date-information">
+                  <p class="title">@Titulo</p>
+                  <p>@Instructor</p>
+                  
+                </div>
+
+                <div class="time">      
+                    <p>@Hora</p>
+                </div>
+                
+             </div>
+             <div class="content-information2">
+                    <p>@Disponible</p>
+                    <div>
+                        <img src="/images/person-circle.svg" />
+                        <img src="/images/person-circle.svg" />
+                        <img src="/images/person-circle.svg" />
+                        <img src="/images/person-circle.svg" />
+                        <img src="/images/person-circle.svg" />
+                    </div>
+             </div> 
+        </div>
+
+@code {
+    [Parameter]
+    public string Titulo { get; set; } = "";
+
+    [Parameter]
+    public string Instructor { get; set; } = "";
+    
+    [Parameter]
+    public string Hora { get; set; } = "";
+
+    [Parameter]
+    public string Disponible { get; set; } = "";
+  
+    [Parameter]
+    public string ImgInstructor { get; set; } = "";
+}

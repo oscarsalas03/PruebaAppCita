@@ -1,0 +1,9 @@
+﻿ <div class="content-list">
+     @ChildContent
+</div>
+
+@code {
+
+  [Parameter]
+  public RenderFragment ChildContent { get; set; }
+}

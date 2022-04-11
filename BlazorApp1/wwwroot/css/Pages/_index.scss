@@ -1,0 +1,54 @@
+﻿.content-login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    justify-content: center;
+    background: steelblue;
+
+    .content-login-icon {
+        text-align: center;
+        margin-bottom: 6rem;
+
+        img {
+            height: 6rem;
+            filter: invert(1);
+        }
+    }
+
+    .content-login-input {
+
+        input {
+            width: 100%;
+            border: none;
+        }
+    }
+
+    .content-login-information {
+        display: flex;
+        margin-top: 1rem;
+        padding: 0 1rem;
+
+        .lnk-contrasena {
+            flex-basis: 60%;
+            color: white;
+            text-decoration: none;
+        }
+
+        .lnk-registro {
+            flex-basis: 40%;
+            text-align: right;
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .btn-Ingresar {
+        margin-top: 1rem;
+        border-radius: 1rem;
+        height: 2.4rem;
+        border: none;
+        background: #3838af;
+        color: white;
+    }
+}

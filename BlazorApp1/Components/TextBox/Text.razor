@@ -1,0 +1,21 @@
+﻿
+
+ <div class="input-text">
+    <div class="content-icon">
+        <img class="input-icon" src="@Icono">
+    </div>       
+    <input placeholder="@PlaceHolder" type="@Type">
+</div>
+
+@code 
+{
+    [Parameter]
+    public string Icono { get; set; } = "";
+
+    [Parameter]
+    public string PlaceHolder { get; set; } = "";
+
+    [Parameter]
+    public string Type { get; set; } = "";
+
+}
